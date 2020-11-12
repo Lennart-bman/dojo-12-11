@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CheckPoint Excercise</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <h1 class="logo-header">Logo</h1>
+        <ul class="nav">
+          <li class="link"><a href="#">Naomi</a></li>
+          <li class="link"><a href="#">Jean-Loup</a></li>
+          <li class="link"><a href="#">Lennart</a></li>
+          <li class="link"><a href="#">Zheniya</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="container">
+        <div class="Welcome">
+          <p class="userName"></p>
+          <button class="btn change_bg">Change bg color</button>
+          <button class="btn ask_user">Ask for user name</button>
+        </div>
+        <div class="Popular">
+          <h3 class="pop-title">Popular departments</h3>
+          <div class="popular-section"><p>Sneakers</p></div>
+          <div class="popular-section"><p>Out-fit</p></div>
+          <div class="popular-section"><p>Jacket</p></div>
+          <div class="popular-section"><p>Shirt</p></div>
+          <div class="popular-section"><p>Underwear</p></div>
+          <div class="popular-section"><p>Album</p></div>
+        </div>
+        <div class="Clothing">
+          <div class="img_wrap">
+              <div>
+                  <h3>Clothing</h3>
+            <img
+              src="https://thumbor.forbes.com/thumbor/fit-in/1200x0/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F992893220%2F0x0.jpg"
+              alt="clothing"
+              id="toggleImage"
+              onclick="toggleImage();"
+            />
+        </div>
+            <div class="Deals">
+                <div>
+                  <img
+                    src="https://images.unsplash.com/photo-1561069934-eee225952461?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"
+                    alt="deal"
+                    id="toggleImage"
+                    onclick="tenPercent();"
+                  />
+                </div>
+                <p class="discount">5000</p>
+                <button class="ten-percent">Get 10% Discount</button>
+              </div>
+          </div>
+         
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container text center flex-direction-row">
+        <div class="logo">
+          <h2>About</h2>
+          <p>Lorem Lorem</p>
+          <p>Lorem Lorem</p>
+          <p>Lorem Lorem</p>
+        </div>
+
+        <div class="logo">
+          <h2>Jobs</h2>
+          <p>Lorem Lorem</p>
+          <p>Lorem Lorem</p>
+          <p>Lorem Lorem</p>
+        </div>
+
+        <div class="logo">
+          <h2>Payment</h2>
+          <p>Lorem Lorem</p>
+          <p>Lorem Lorem</p>
+          <p>Lorem Lorem</p>
+        </div>
+
+        <div class="logo">
+          <h2>Help</h2>
+          <p>Lorem Lorem</p>
+          <p>Lorem Lorem</p>
+          <p>Lorem Lorem</p>
+        </div>
+      </div>
+    </footer>
+    <script src="./home.js"></script>
+  </body>
+</html>
